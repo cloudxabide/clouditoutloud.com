@@ -115,7 +115,7 @@ data "aws_ami" "rhel82_latest" {
 # =============================================================================
 # Instance Info
 # =============================================================================
-variable "staging_bastion" {
+variable "mock_bastion" {
   type      = string
   default   = "t3.micro"
 }

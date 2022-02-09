@@ -1,7 +1,7 @@
 # security_groups.tf
 
 resource "aws_security_group" "default" {
-  vpc_id        = aws_vpc.ciol_devkit.id
+  vpc_id        = aws_vpc.ciol-mock.id
 
   ingress {
     protocol    = -1
@@ -28,7 +28,7 @@ resource "aws_security_group" "default" {
 resource "aws_security_group" "allow_all_ssh" {
   name          = "allow_all_ssh"
   description   = "Allow inbound SSH traffic from ALL"
-  vpc_id        = aws_vpc.ciol_devkit.id
+  vpc_id        = aws_vpc.ciol-mock.id
 
   ingress {
     from_port   = 22
@@ -54,8 +54,8 @@ resource "aws_security_group" "allow_all_ssh" {
 #########################
 
 resource "aws_default_network_acl" "default" {
-#  vpc_id                  = aws_vpc.ciol_devkit.id
-  default_network_acl_id  = aws_vpc.ciol_devkit.default_network_acl_id
+#  vpc_id                  = aws_vpc.ciol-mock.id
+  default_network_acl_id  = aws_vpc.ciol-mock.default_network_acl_id
   subnet_ids              = [ aws_subnet.public-1.id ]
 
   ingress {

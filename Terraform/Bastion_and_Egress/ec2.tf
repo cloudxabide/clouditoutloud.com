@@ -1,7 +1,7 @@
 # ec2.tf
-resource "aws_instance" "ciol-staging" {
+resource "aws_instance" "ciol-mock" {
   ami                      = data.aws_ami.rhel82_latest.id
-  instance_type            = var.staging_bastion
+  instance_type            = var.mock_bastion
   vpc_security_group_ids   = [
     aws_security_group.allow_all_ssh.id,
     aws_security_group.default.id,
