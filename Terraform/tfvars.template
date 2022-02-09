@@ -1,0 +1,19 @@
+# rename this to <something>.tfvars
+# terraform apply --var-file=./<something>.tfvars
+
+project_name      = ""
+project_owner     = ""
+project_env       = ""
+domain_name_tld   = ""
+aws_profile       = ""
+aws_region        = ""
+availability_zone = ""
+key_pair_name     = ""
+public_key_path   = ""
+ 
+##### VARS THAT PROBABLY DON'T NEED MODIFICATION
+# Uncomment/comment as needed (util I find a way to fix this shit)
+ami_owner_redhat_rhel       = 219670896067 # GovCloud
+#ami_owner_redhat_rhel       = 309956199498 # Commercal
+ami_owner_redhat_coreos     = 531415883065 # Red Hat Dev
+
