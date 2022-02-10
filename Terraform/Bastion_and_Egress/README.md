@@ -39,5 +39,9 @@ terraform plan --var-file=./bastion_and_egress.tfvars
 ```
 
 ```
-terraform --var-file=./bastion_and_egress.tfvars
+terraform apply --var-file=./bastion_and_egress.tfvars
+```
+
+```
+terraform destroy --var-file=./bastion_and_egress.tfvars
 ```

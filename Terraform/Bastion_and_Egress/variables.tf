@@ -95,7 +95,7 @@ variable "source_cidr_block" {
 # =============================================================================
 # AMI Info
 # =============================================================================
-data "aws_ami" "rhel82_latest" {
+data "aws_ami" "rhel83_latest" {
   owners      = [var.ami_owner_redhat_rhel]
   most_recent = true
 
