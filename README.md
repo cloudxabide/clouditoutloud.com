@@ -1,8 +1,23 @@
 # clouditoutloud.com
-Install OpenShift Container Platform as a Private Cluster on AWS
+CloudItOutLoud is second-level domain for my Cloud (public and hybrid) playground.  
+
+I will be testing several iterations of different products/services/projects.  Each represented by a third-level domain.
+
+| Domain                    | Purpose/Goal                          | Repo URL |
+|:--------------------------|:--------------------------------------|:---|
+| clouditoutloud.com        | Second-level domain for my adventures | //github.com/cloudxabide/clouditoutloud.com |
+| eks.clouditoutloud.com    | Testing EKS in AWS                    | https://github.com/cloudxabide/eks.clouditoutloud.com
+| ocp.clouditoutloud.com    | Testing OpenShift (IPI in AWS         | https://github.com/cloudxabide/ocp.clouditoutloud.com
+| rosa.clouditoutloud.com   | (future) testing ROSA                 | N/A
+
 
 ## Overview
 
+
+
+
+
+## Original Plan....
 ![Environment Overview](Images//Environment_Mockup_Private_Cluster.png)
 
 For a "AWS private cluster" installation, we (now) need to create:
