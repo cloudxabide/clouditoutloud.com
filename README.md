@@ -5,10 +5,10 @@ I will be testing several iterations of different products/services/projects.  E
 
 | Domain                    | Purpose/Goal                          | Repo URL |
 |:--------------------------|:--------------------------------------|:---|
-| clouditoutloud.com        | Second-level domain for my adventures | //github.com/cloudxabide/clouditoutloud.com |
-| eks.clouditoutloud.com    | Testing EKS in AWS                    | https://github.com/cloudxabide/eks.clouditoutloud.com
-| ocp.clouditoutloud.com    | Testing OpenShift (IPI in AWS         | https://github.com/cloudxabide/ocp.clouditoutloud.com
-| rosa.clouditoutloud.com   | (future) testing ROSA                 | N/A
+| clouditoutloud.com        | Second-level domain for my adventures | https://github.com/cloudxabide/clouditoutloud.com |
+| eks.clouditoutloud.com    | Testing EKS in AWS                    | https://github.com/cloudxabide/eks.clouditoutloud.com |
+| ocp.clouditoutloud.com    | Testing OpenShift (IPI in AWS         | https://github.com/cloudxabide/ocp.clouditoutloud.com | 
+| rosa.clouditoutloud.com   | (future) testing ROSA                 | N/A | 
 
 
 ## Overview
